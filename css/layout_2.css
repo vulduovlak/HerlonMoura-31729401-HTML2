@@ -1,0 +1,76 @@
+body{
+background-color: gray;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-align: center;
+}
+h1{
+background-color: green;
+margin: 16px;
+border:4px;
+text-align: left;
+}
+
+.nav_lateral {
+width: 80%;
+background-color: #f67280;
+margin: 0;
+float: right;
+
+}
+
+#navheader{
+
+height: 5px;
+padding: 32px;
+background-color: blue;
+margin: 16px;
+border:4px;
+}
+
+header{
+height: 100px;
+padding: 32px;
+background-color: #F8B195;
+margin: 16px;
+border:4px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: grey;
+  padding: 10px;
+}
+.grid-item {
+  height: 400px;
+  background-color: green;
+  border:8px solid grey;
+  padding: 32px;
+}
+
+
+
+main{
+height: 300px;
+padding: 32px;
+background-color: pink;
+margin: 16px;
+border:4px;
+
+}
+
+footer{
+height: 40px;
+padding: 10px;
+background-color: orange;
+clear:both;
+}
+span{
+color: #F2F2F2;
+font-family: "Arial";
+font-size: 24px;
+}
+
